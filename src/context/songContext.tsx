@@ -9,7 +9,7 @@ import React, {
   MutableRefObject,
 } from "react";
 
-const server = "https://760b-16-170-214-70.ngrok-free.app";
+const server = "https:api.imanargha.shop/song";
 
 export interface Song {
   id: string;
