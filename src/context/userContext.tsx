@@ -4,7 +4,7 @@ import toast, { Toaster } from "react-hot-toast";
 import ForgotPassword from "../pages/ForgotPassword";
 import { data } from "react-router-dom";
 
-const server = "https:api.imanargha.shop/user";
+const server = "https://api.imanargha.shop/user";
 
 export interface User {
   _id: string;

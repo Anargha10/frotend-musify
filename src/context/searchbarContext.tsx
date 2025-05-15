@@ -9,8 +9,8 @@ import axios from "axios";
 import { useDebounce } from "../hooks/useDebounce"; 
 import { useUserData } from "./userContext";
 
-const SONG_URL = "https:api.imanargha.shop/song/api/v1/songs/search";
-const ALBUM_URL = "https:api.imanargha.shop/song/api/v1/albums/search";
+const SONG_URL = "https://api.imanargha.shop/song/api/v1/songs/search";
+const ALBUM_URL = "https://api.imanargha.shop/song/api/v1/albums/search";
 const HISTORY_URL = "https://api.imanargha.shop/user/api/v1/user";
 
 interface SearchResult {
