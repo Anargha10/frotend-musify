@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { useSongData } from "../context/songContext";
 import axios from "axios";
 
-const server = "http://localhost:8000";
+const server = "https://api.imanargha.shop/song";
 
 export default function SearchOverlay() {
   const {

@@ -7,7 +7,7 @@ import toast from "react-hot-toast";
 import { MdDelete, MdAdd, MdHome, MdAudiotrack, MdAlbum } from "react-icons/md";
 import { motion, AnimatePresence } from "framer-motion";
 
-const server = "http://16.170.214.70:7000";
+const server = "https://api.imanargha.shop/admin";
 
 const Admin = () => {
   const navigate = useNavigate();
