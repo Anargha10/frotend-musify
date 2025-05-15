@@ -9,8 +9,8 @@ import axios from "axios";
 import { useDebounce } from "../hooks/useDebounce"; 
 import { useUserData } from "./userContext";
 
-const SONG_URL = "http://16.170.214.70:8000/api/v1/songs/search";
-const ALBUM_URL = "http://16.170.214.70:8000/api/v1/albums/search";
+const SONG_URL = "https://760b-16-170-214-70.ngrok-free.app/api/v1/songs/search";
+const ALBUM_URL = "https://760b-16-170-214-70.ngrok-free.app/api/v1/albums/search";
 const HISTORY_URL = "http://16.170.214.70:5000/api/v1/user";
 
 interface SearchResult {

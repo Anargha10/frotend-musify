@@ -4,7 +4,7 @@ import toast, { Toaster } from "react-hot-toast";
 import ForgotPassword from "../pages/ForgotPassword";
 import { data } from "react-router-dom";
 
-const server = "http://16.170.214.70:5000";
+const server = "yahoo.com";
 
 export interface User {
   _id: string;
