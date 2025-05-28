@@ -139,6 +139,7 @@ export const UserProvider: React.FC<UserProviderProps> = ({ children }) => {
         headers: {
           token: localStorage.getItem("token"),
         },
+        withCredentials: true,
       });
       console.log("Fetched user:", data);
 
