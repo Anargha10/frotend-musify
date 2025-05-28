@@ -145,7 +145,7 @@ export const UserProvider: React.FC<UserProviderProps> = ({ children }) => {
       setUser(data);
       setIsAuth(true);
     } catch (error) {
-      console.log(error);
+      console.log("mil gya bahinchod");
     } finally {
       setLoading(false);
     }
